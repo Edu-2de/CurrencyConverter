@@ -12,7 +12,8 @@ const ConvertForm = () => {
     e.preventDefault();
     if (fromCurrency === toCurrency) return;
 
-    const response = await fetch(`https://api.exchangerate.host/convert?from=${fromCurrency}&to=${toCurrency}&amount=${amount}`);
+    const accessKey = "87b11e7f900dc0cd77e1638446e3fb9d";
+    const response = await fetch(`https://api.exchangerate.host/convert?access_key=${accessKey}&from=${fromCurrency}&to=${toCurrency}&amount=${amount}`);
     const data = await response.json();
     setResult(data.result);
 

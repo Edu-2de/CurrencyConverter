@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/TaskForm.css';
+import '../styles/ConvertForm.css';
 
 
 const ConvertForm = () => {
@@ -19,7 +19,7 @@ const ConvertForm = () => {
   };
 
   return (
-    <form className="task-form" onSubmit={handleConvert}>
+    <form className="convert-form" onSubmit={handleConvert}>
       <input
         type="number"
         className="amount-input"

@@ -1,4 +1,4 @@
-# 💱 CurrencyConverter – Real-time Currency Exchange App
+#CurrencyConverter – Real-time Currency Exchange App
 
 **CurrencyConverter** is a simple and clean React application that lets users convert currencies in real-time using a public exchange rate API. Perfect for practicing core React concepts like state, effects, fetching APIs, and form handling.
 

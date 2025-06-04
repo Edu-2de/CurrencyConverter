@@ -17,9 +17,3 @@
 - useState, useEffect hooks
 - CSS or Tailwind for styling
 
-## Installation
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/seu-usuario/CurrencyConverter.git
-   cd CurrencyConverter
